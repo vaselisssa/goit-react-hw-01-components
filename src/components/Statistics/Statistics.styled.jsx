@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const StatisticsSection = styled.section`
-  margin: 10px auto 0 auto;
+  margin: 24px auto 0 auto;
   width: 360px;
   border-radius: 10px;
   background-color: #f2eeed;
@@ -32,6 +32,12 @@ export const StatItem = styled.li`
   gap: 10px;
   align-items: center;
   justify-content: center;
+  &:first-of-type {
+    border-bottom-left-radius: 10px;
+  }
+  &:last-of-type {
+    border-bottom-right-radius: 10px;
+  }
 `;
 
 export const StatLabel = styled.span`
