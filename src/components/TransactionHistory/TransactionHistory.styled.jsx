@@ -39,10 +39,6 @@ export const TableRow = styled.tr`
   &:nth-of-type(even) {
     background-color: #deced0;
   }
-  &:last-of-type {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
   &:hover,
   &:focus {
     cursor: pointer;
