@@ -5,6 +5,7 @@ export const TransactionHistoryTable = styled.table`
   height: 50px;
   margin: 20px auto 60px auto;
   border-radius: 10px;
+  border-collapse: collapse;
   background-color: #f2eeed;
   box-shadow: 0px 5px 14px -2px rgba(0, 0, 0, 0.99);
 `;
@@ -40,10 +41,6 @@ export const TableRow = styled.tr`
     background-color: #deced0;
   }
 
-  &:not(:last-child) {
-    border-bottom: 1px solid black;
-  }
-
   &:hover,
   &:focus {
     cursor: pointer;
@@ -54,6 +51,7 @@ export const TableRow = styled.tr`
 
 export const TableData = styled.td`
   border-left: 1px solid #8ba1a5;
+  border-right: 1px solid #8ba1a5;
   border-radius: inherit;
   font-weight: 700;
 `;
