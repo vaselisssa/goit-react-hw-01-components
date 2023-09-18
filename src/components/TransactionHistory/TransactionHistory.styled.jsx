@@ -39,6 +39,10 @@ export const TableRow = styled.tr`
   &:nth-of-type(even) {
     background-color: #deced0;
   }
+  &:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
   &:hover,
   &:focus {
     cursor: pointer;
@@ -50,6 +54,13 @@ export const TableRow = styled.tr`
 export const TableData = styled.td`
   border-left: 1px solid #8ba1a5;
   border-right: 1px solid #8ba1a5;
-  border-radius: inherit;
+  &:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  ,
+  &:last-child {
+    border-bottom-right-radius: 10px;
+  }
   font-weight: 700;
+  overflow: hidden;
 `;
