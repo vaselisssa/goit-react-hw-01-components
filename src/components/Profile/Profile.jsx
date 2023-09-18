@@ -28,6 +28,7 @@ export const Profile = ({
         <UserInfo>@{tag}</UserInfo>
         <UserInfo>{location}</UserInfo>
       </Description>
+
       <StatsList>
         <StatsItem>
           <StatsLabel>
@@ -36,6 +37,7 @@ export const Profile = ({
           </StatsLabel>
           <StatsQuantity>{followers}</StatsQuantity>
         </StatsItem>
+
         <StatsItem>
           <StatsLabel>
             <AiOutlineEye />
@@ -43,6 +45,7 @@ export const Profile = ({
           </StatsLabel>
           <StatsQuantity>{views}</StatsQuantity>
         </StatsItem>
+
         <StatsItem>
           <StatsLabel>
             <AiFillHeart />

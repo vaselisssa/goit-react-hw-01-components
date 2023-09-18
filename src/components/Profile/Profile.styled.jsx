@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const UserProfile = styled.div`
-  margin: 60px auto;
+  margin: 60px auto 0 auto;
   width: 360px;
   border-radius: 10px;
   display: flex;
@@ -49,12 +49,12 @@ export const StatsList = styled.ul`
 `;
 
 export const StatsItem = styled.li`
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 100%;
 
   &:not(:last-child) {
     border-right: 1px solid #8a8584;
